@@ -6,6 +6,7 @@ This analysis is of select Kickstarter campaigns started from May 2009 through M
 * Outcomes of US theater play Kickstarters
 * Monthly view of Kickstarter theater campaign outcomes
 * Research on Edinburgh projects
+
 Key findings include:
 * Successful US play projects have a median goal of $3,000, unsuccessful ones have a $5,000 median
 * May and June are when the largest amount of successful US theater kickstarters launched
