@@ -20,15 +20,17 @@ Analysis of theater outcomes based on the launch date was performed by:
 4. Filtering to show only Theater campigns
 5. Ordered Outcomes so successful was first
 6. Created a line chart visualization of the results
-![Kickstarter theater project outcomes comparted to their launch date](https://myoctocat.com/assets/images/base-octocat.svg)
+
+![Kickstarter theater project outcomes comparted to their launch date](https://github.com/JacquelineCl/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 Analysis of play outcomes based on goals was performed by:
 1. Sorting the Kickstarter projects by the amount of the goal and thier outcome
 2. Verifying that the total projects matched the amount in the data set
 3. Caluculating the percentage of each goal range that was successful, failed, or was canceled
-4. Creating a line chart visualiztion of hte results
-![Kickstarter play project outcomes based on goals](https://myoctocat.com/assets/images/base-octocat.svg)
+4. Creating a line chart visualiztion of the results
+
+![Kickstarter play project outcomes based on goals](https://github.com/JacquelineCl/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 The initial formuals I used to pull the counts of plays in each goal range did not count everything in the data set. Once the formulas were adjusted to include >= for the lowest number in the group and > the number starting the next group then all of the projects in the data set were counted. For example "=COUNTIFS(Kickstarter!$F:$F, "successful", Kickstarter!$R:$R, "plays", Kickstarter!$D:$D, ">=1000", Kickstarter!$D:$D, "<5000")"
